@@ -1,7 +1,8 @@
 ## Automation Framework For Android Mobile App using Appium
 
 ### About
--This project aims to automat Testcases for Android Mobile App using Appium
+- This project aims to automat Testcases for Android Mobile App using Appium
+- Link for Screenrecord succesfull running: https://screenrec.com/share/h5FW7Mutrb
 
 ### Tools Used
 - This Framework has been built using Native appium with:
