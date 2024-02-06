@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T02:27:05 EET" name="Default Suite" finished-at="2024-02-06T02:27:22 EET" duration-ms="17695">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T02:27:05 EET" name="untitled3" finished-at="2024-02-06T02:27:22 EET" duration-ms="17695">
+      <class name="TestPackage.E2ETest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestPackage.E2ETest@77167fb7]" started-at="2024-02-06T02:27:05 EET" name="SetUp" finished-at="2024-02-06T02:27:11 EET" duration-ms="6316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ChangingSetting()[pri:0, instance:TestPackage.E2ETest@77167fb7]" started-at="2024-02-06T02:27:11 EET" name="ChangingSetting" finished-at="2024-02-06T02:27:16 EET" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangingSetting -->
+        <test-method signature="ProceedOnPrivacyPolicyPage()[pri:0, instance:TestPackage.E2ETest@77167fb7]" started-at="2024-02-06T02:27:16 EET" name="ProceedOnPrivacyPolicyPage" finished-at="2024-02-06T02:27:18 EET" depends-on-methods="TestPackage.E2ETest.ChangingSetting" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProceedOnPrivacyPolicyPage -->
+        <test-method signature="ValidateMainScreen()[pri:0, instance:TestPackage.E2ETest@77167fb7]" started-at="2024-02-06T02:27:18 EET" name="ValidateMainScreen" finished-at="2024-02-06T02:27:22 EET" depends-on-methods="TestPackage.E2ETest.ProceedOnPrivacyPolicyPage" duration-ms="4221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMainScreen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPackage.E2ETest@77167fb7]" started-at="2024-02-06T02:27:22 EET" name="tearDown" finished-at="2024-02-06T02:27:22 EET" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestPackage.E2ETest -->
+    </test> <!-- untitled3 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
