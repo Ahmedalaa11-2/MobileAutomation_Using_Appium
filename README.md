@@ -1,7 +1,7 @@
 ## Automation Framework For Android Mobile App using Appium
 
 ### About
-- This project aims to automat Testcases for Android Mobile App using Appium
+- This project aims to automate Testcases for Android Mobile App using Appium
 - Link for Screenrecord succesfull running: https://screenrec.com/share/h5FW7Mutrb
 
 ### Tools Used
@@ -21,11 +21,12 @@
   - Android Studio:https://developer.android.com/studio
 
   ### Framework Structure
-  - This Framework is designed using POM design pattern "Page Object Model" ,which is classified into:
-  - ### Main Folder pages package
-     - where it conains page object classes for each page, that have locators and logic implementations for each page
+   This Framework is designed using POM design pattern "Page Object Model",
+  which is classified into:
+  - ### pages package
+    Where it conains page object classes for each page, that have locators and logic implementations for each page
   - ###  Test Package :
-     - # Where it contains the tests writtten for the fllowing bussiness flow:
+     Where it contains the tests writtten for the fllowing bussiness flow:
      1. Changing Temperature unit from C to F, along with proper assertions on main Weather
         screen
      2. Changing Time format from 24 to 12, along with proper assertions on main Weather screen.
