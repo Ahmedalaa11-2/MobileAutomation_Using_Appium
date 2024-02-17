@@ -14,7 +14,7 @@ public class Actions {
     public Actions(AndroidDriver driver) {
         this.driver=driver;
     }
-    By meddleSection =By.id("com.info.weather.forecast:id/line_chart_hourly");
+   private By meddleSection =By.id("com.info.weather.forecast:id/line_chart_hourly");
     public void swipeLeft(By locator)
     {
 

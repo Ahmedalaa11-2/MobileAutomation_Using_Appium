@@ -63,6 +63,7 @@ public class E2ETest {
     public void tearDown() {
         if (null != driver) {
             driver.quit();
+            driver.resetApp();
         }
     }
 
